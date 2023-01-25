@@ -1,41 +1,4 @@
-//import java.util.Scanner;
-//public class Main {
-//    public static void main(String[] args) {
-//        int rock = 0;
-//        int paper = 1;
-//        int scissor = 2;
-//
-//        boolean replay = true;
-//        while (replay == true) {
-//            int randomValue = (int) (Math.random() * 3);
-//
-//            Scanner forRock = new Scanner(System.in);
-//            System.out.print("What do you choose? ");
-//            int userInput = Integer.parseInt(forRock.nextLine());
-//            System.out.println(randomValue + " Computer value and " + userInput + " user value.");
-//
-//            if (randomValue == userInput) {
-//                System.out.println("draw");
-//            } else if (userInput == rock && randomValue == scissor) {
-//                System.out.println("you win");
-//            } else if (userInput == paper && randomValue == rock) {
-//                System.out.println("you win");
-//            } else if (userInput == scissor && randomValue == paper) {
-//                System.out.println("you win");
-//            } else {
-//                System.out.println("computer wins");
-//            }
-//            System.out.println("Do you wish to play again? if yes select 1 if no select 2: ");
-//            int userInput1 = Integer.parseInt(forRock.nextLine());
-//            if (userInput1 == 1) {
-//                replay = true;
-//            } else if (userInput1 == 2) {
-//                replay = false;
-//            }
-//        }
-//    }
-//
-//}
+
 import java.util.Scanner;
 
 public class Main {
